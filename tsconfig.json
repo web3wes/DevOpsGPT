@@ -11,6 +11,9 @@
     },
     {
       "path": "./log-parser"
+    },
+    {
+      "path": "./knowledge-store"
     }
   ]
 }
