@@ -8,6 +8,9 @@
     },
     {
       "path": "./types"
+    },
+    {
+      "path": "./log-parser"
     }
   ]
 }

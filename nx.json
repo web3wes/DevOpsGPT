@@ -26,7 +26,7 @@
           "watchDepsName": "watch-deps"
         }
       },
-      "exclude": ["types/*"]
+      "exclude": ["types/*", "log-parser/*"]
     },
     {
       "plugin": "@nx/jest/plugin",
@@ -36,7 +36,7 @@
     },
     {
       "plugin": "@nx/js/typescript",
-      "include": ["types/*"],
+      "include": ["types/*", "log-parser/*"],
       "options": {
         "typecheck": {
           "targetName": "typecheck"

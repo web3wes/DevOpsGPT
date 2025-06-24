@@ -7,3 +7,4 @@ export interface ILogEvent {
 }
 
 export * from './lib/types.js';
+export * from './lib/failure-context.js';
