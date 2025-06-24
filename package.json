@@ -2,7 +2,13 @@
   "name": "@./source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "format": "nx format:write",
+    "format:check": "nx format:check",
+    "lint": "nx run-many -t lint --all",
+    "test": "nx run-many -t test --all",
+    "build": "nx run-many -t build --all"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
